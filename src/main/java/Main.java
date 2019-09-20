@@ -15,6 +15,7 @@ public class Main {
 
 		while (aux) {
 			try {
+				
 				p.setNombre(scanner.nextLine());
 				p.setApellidos(scanner.nextLine());
 				p.setEdad(scanner.nextInt());
