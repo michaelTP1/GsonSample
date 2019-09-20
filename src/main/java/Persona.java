@@ -2,8 +2,7 @@
 public class Persona {
 	
 	private String nombre, apellidos;
-	private int edad;
-	
+	private Integer edad;
 	public String getNombre() {
 		return nombre;
 	}
@@ -16,16 +15,14 @@ public class Persona {
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
-	public int getEdad() {
+	public Integer getEdad() {
 		return edad;
 	}
-	public void setEdad(int edad) {
+	public void setEdad(Integer edad) {
 		this.edad = edad;
 	}
-	public void reset() {
-		nombre=new String();
-		apellidos=new String();
-		
-	}
+	
+	
+	
 
 }
