@@ -1,8 +1,8 @@
 
 public class Persona {
 	
-	String nombre, apellidos;
-	int edad;
+	private String nombre, apellidos;
+	private int edad;
 	
 	public String getNombre() {
 		return nombre;
