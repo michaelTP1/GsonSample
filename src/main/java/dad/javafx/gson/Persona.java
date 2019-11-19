@@ -1,3 +1,4 @@
+package dad.javafx.gson;
 
 public class Persona {
 	

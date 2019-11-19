@@ -1,7 +1,10 @@
+package dad.javafx.gson;
 import java.util.Scanner;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+
 
 public class Main {
 
@@ -21,7 +24,7 @@ public class Main {
 				p.setEdad(scanner.nextInt());
 				aux = false;
 			} catch (Exception InputMismatchException) {
-				System.out.println("Error al introducir los datos, inténtelo de nuevo\n\n");
+				System.out.println("Error al introducir los datos, intï¿½ntelo de nuevo\n\n");
 
 			}
 
